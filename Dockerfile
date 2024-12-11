@@ -1,5 +1,5 @@
 FROM openjdk:17-jdk-alpine
-WORKDIR /usr/src/hello
-COPY hello.java .
-RUN javac hello.java
-CMD ["java","hello"]
+WORKDIR /usr/src/HelloWorld
+COPY HelloWorld.java .
+RUN javac HelloWorld.java
+CMD ["java","HelloWorld"]
